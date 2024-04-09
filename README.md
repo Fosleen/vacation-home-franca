@@ -1,30 +1,12 @@
-# React + TypeScript + Vite
+# Holiday Home Franca
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://github.com/Fosleen/holiday-home-franca/assets/90924342/697bacc6-64b7-4152-b4e8-374bc3bfba57" alt="pchut-logo" style="width:350px"/>
 
-Currently, two official plugins are available:
+<p align="center">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>Watch the video:</p>
 
-## Expanding the ESLint configuration
+[<img src="https://img.youtube.com/vi/WplvZvoSTNY/hqdefault.jpg"/>](https://youtu.be/WplvZvoSTNY)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+</p>
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
