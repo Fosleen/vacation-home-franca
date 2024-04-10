@@ -9,6 +9,7 @@ export default {
         "main-blue": "#4A96DC",
         "dark-blue": "#3F4344",
         "middle-blue": "#BBD5ED",
+        "bg-blue": "#DDE5E7",
       },
     },
   },
