@@ -7,7 +7,7 @@ export default {
         "ligth-blue": "#E8F1F5",
         "grey-blue": "#3F4344",
         "main-blue": "#4A96DC",
-        "dark-blue": "#3F4344",
+        "dark-blue": "#0C344B",
         "middle-blue": "#BBD5ED",
         "bg-blue": "#DDE5E7",
       },

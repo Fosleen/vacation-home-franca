@@ -8,5 +8,6 @@
 
 [<img src="https://img.youtube.com/vi/WplvZvoSTNY/hqdefault.jpg"/>](https://youtu.be/WplvZvoSTNY)
 
-</p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fe3dd144-b475-459d-bca5-ea9cfec999b4/deploy-status)](https://app.netlify.com/sites/holiday-house-franca/deploys)
 
+</p>
