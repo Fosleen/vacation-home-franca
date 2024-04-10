@@ -1,15 +1,18 @@
-import Button from "./components/atoms/Button";
+import { Route, Routes } from "react-router-dom";
+import Layout from "./components/layouts/Layout";
+import Homepage from "./pages/Homepage";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <>
-      <div className="flex justify-center">
-        <h1>Kuća za odmor Franca</h1>
-        <Button>Saznaj više</Button>
-        <Button filled>Saznaj više</Button>
-        <Button wider>Saznaj više</Button>
-      </div>
-    </>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Homepage />} />
+        <Route path="/o-nama" element={<About />} />
+        <Route path="kontakt" element={<Contact />} />
+      </Route>
+    </Routes>
   );
 }
 
