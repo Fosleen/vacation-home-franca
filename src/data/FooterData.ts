@@ -1,6 +1,6 @@
-import bookIcon from "../assets/book-icon.png";
-import facebookIcon from "../assets/facebook-icon.png";
-import instagramIcon from "../assets/instagram-icon.png";
+import bookIcon from "../assets/images/book-icon.png";
+import facebookIcon from "../assets/images/facebook-icon.png";
+import instagramIcon from "../assets/images/instagram-icon.png";
 
 export const footerData = [
   {

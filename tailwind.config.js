@@ -11,6 +11,10 @@ export default {
         "middle-blue": "#BBD5ED",
         "bg-blue": "#DDE5E7",
       },
+      fontFamily: {
+        theBoldFont: ["TheBoldFont", "sans-serif"],
+        inspiration: ["Inspiration", "sans-serif"],
+      },
     },
   },
   plugins: [],

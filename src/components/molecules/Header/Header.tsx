@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../../assets/franca-logo.png";
+import logo from "../../../assets/images/franca-logo.png";
 import LocationAndPhone from "../../atoms/LocationAndPhone";
 import Navbar from "../../atoms/Navbar";
 import { List, X } from "@phosphor-icons/react";

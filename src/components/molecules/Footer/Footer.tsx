@@ -1,6 +1,6 @@
 import { footerData } from "../../../data/FooterData";
 import FooterItem from "../../atoms/FooterItem";
-import fosleenLogo from "../../../assets/logo-light.png";
+import fosleenLogo from "../../../assets/images/logo-light.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
