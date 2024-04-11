@@ -36,7 +36,7 @@ export const footerData = [
       },
       {
         name: "FACEBOOK",
-        url: "TODO",
+        url: "https://www.facebook.com/profile.php?id=61558040110575",
         icon: facebookIcon,
       },
       {

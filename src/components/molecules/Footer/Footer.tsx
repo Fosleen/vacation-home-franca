@@ -12,7 +12,7 @@ const Footer = () => {
             <FooterItem item={item} key={index} />
           ))}
         </div>
-        <span className=" flex flex-col gap-10">
+        <span className="flex flex-col gap-10">
           <hr className="w-full border-main-blue" />
           <span className="w-full flex justify-end">
             <Link to="https://fosleen.netlify.app/" target="_blank">
