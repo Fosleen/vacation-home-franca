@@ -1,5 +1,11 @@
+import Hero from "../../components/atoms/Hero";
+
 const Homepage = () => {
-  return <div>Homepage</div>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 };
 
 export default Homepage;
