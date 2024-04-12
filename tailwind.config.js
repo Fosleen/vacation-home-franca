@@ -15,6 +15,9 @@ export default {
         theBoldFont: ["TheBoldFont", "sans-serif"],
         inspiration: ["Inspiration", "sans-serif"],
       },
+      screens: {
+        xs: "475px",
+      },
     },
   },
   plugins: [],
