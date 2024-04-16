@@ -5,7 +5,7 @@ const FooterItem: FC<{
   item: { data: Array<{ url: string; name: string; icon?: string }> };
 }> = ({ item }) => {
   return (
-    <div className="text-ligth-blue flex flex-col justify-center wrap items-center text-center gap-4 text-lg md:text-base md:text-left md:justify-start md:items-start">
+    <div className="text-light-blue flex flex-col justify-center wrap items-center text-center gap-4 text-lg md:text-base md:text-left md:justify-start md:items-start">
       {item.data.map((data, index) => (
         <Link
           to={data.url}

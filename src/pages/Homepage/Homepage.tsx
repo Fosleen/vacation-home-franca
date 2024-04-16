@@ -1,4 +1,5 @@
 import Hero from "../../components/atoms/Hero";
+import HomepageInfo from "../../components/molecules/HomepageInfo";
 import Badges from "../../components/molecules/Badges";
 
 const Homepage = () => {
@@ -6,6 +7,7 @@ const Homepage = () => {
     <>
       <Hero />
       <Badges />
+      <HomepageInfo />
     </>
   );
 };

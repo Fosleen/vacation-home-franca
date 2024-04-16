@@ -22,13 +22,13 @@ const Hero = () => {
   return (
     <div className="relative">
       <div className="absolute z-20 top-[50%] transform -translate-y-1/2 flex flex-col max-w-screen-xl mx-auto left-0 right-0 gap-0 items-center w-full lg:items-start px-8 xl:px-0">
-        <p className="font-inspiration text-ligth-blue drop-shadow-lg text-5xl md:text-7xl text-center">
+        <p className="font-inspiration text-light-blue drop-shadow-lg text-5xl md:text-7xl text-center">
           odmori dušu uz rijeku
         </p>
-        <h1 className="font-theBoldFont text-ligth-blue drop-shadow-lg text-8xl md:text-9xl">
+        <h1 className="font-theBoldFont text-light-blue drop-shadow-lg text-8xl md:text-9xl">
           FRANCA
         </h1>
-        <p className="font-inspiration text-ligth-blue drop-shadow-lg text-5xl mt-2 md:text-7xl md:mt-6">
+        <p className="font-inspiration text-light-blue drop-shadow-lg text-5xl mt-2 md:text-7xl md:mt-6">
           ~ kuća za odmor
         </p>
       </div>
