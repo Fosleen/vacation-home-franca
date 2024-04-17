@@ -6,3 +6,10 @@ export interface ButtonProps {
   wider?: boolean;
   form?: string;
 }
+
+export interface LandmarkProps {
+  title: string;
+  description: string;
+  img: string;
+  url: string;
+}

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { carouselImagesData } from "../../../data/CarouselImagesData";
 
 const Carousel = () => {
-  const [images, setImages] = useState([]);
+  const [images, setImages] = useState<string[]>([]);
 
   useEffect(() => {
     setImages(carouselImagesData);
