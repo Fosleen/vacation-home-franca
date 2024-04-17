@@ -1,6 +1,6 @@
 import bookIcon from "../assets/images/book-icon.png";
 import facebookIcon from "../assets/images/facebook-icon.png";
-import instagramIcon from "../assets/images/instagram-icon.png";
+import airbnbIcon from "../assets/images/airbnb-icon.png";
 
 export const footerData = [
   {
@@ -35,14 +35,14 @@ export const footerData = [
         icon: bookIcon,
       },
       {
+        name: "AIRBNB",
+        url: "https://hr.airbnb.com/rooms/1134510774945146170?check_in=2024-07-16&check_out=2024-07-19&guests=1&adults=1&s=67&unique_share_id=db42c9ea-7109-4c01-b187-d4de60f649d0",
+        icon: airbnbIcon,
+      },
+      {
         name: "FACEBOOK",
         url: "https://www.facebook.com/profile.php?id=61558040110575",
         icon: facebookIcon,
-      },
-      {
-        name: "INSTAGRAM",
-        url: "TODO",
-        icon: instagramIcon,
       },
     ],
   },

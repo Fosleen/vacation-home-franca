@@ -1,9 +1,15 @@
 import photo from "../../../assets/images/DJI_0056.jpg";
+import vector from "../../../assets/images/vector-1.png";
 import Button from "../../atoms/Button";
 
 const HomepageInfo = () => {
   return (
-    <div className="w-full mt-8 md:px-8">
+    <div className="w-full mt-8 md:px-8 relative">
+      <img
+        src={vector}
+        alt="vector-blue-1"
+        className="hidden md:block absolute right-0 translate-y-[-208px] z-20"
+      />
       <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row-reverse">
         <div className="lg:py-8 z-10 w-full">
           <div className="bg-light-blue flex flex-col justify-center items-center md:items-start gap-6 p-8 pb-16 lg:p-8 lg:translate-x-[-64px] lg:mr-[-64px]">

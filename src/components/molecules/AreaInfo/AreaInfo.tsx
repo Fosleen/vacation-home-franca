@@ -1,9 +1,15 @@
 import { landmarksData } from "../../../data/LandmarksData";
+import vector from "../../../assets/images/vector-2.png";
 import Landmark from "../../atoms/Landmark";
 
 const AreaInfo = () => {
   return (
-    <div className="w-full my-8 sm:px-8">
+    <div className="w-full my-8 sm:px-8 relative">
+      <img
+        src={vector}
+        alt="vector-blue-1"
+        className="hidden md:block absolute left-0 translate-y-[-80px] z-20 md:w-12 2xl:w-24"
+      />
       <div className="max-w-screen-xl mx-auto flex gap-4 flex-col justify-center">
         <h2 className="text-2xl font-bold text-center uppercase">
           istražite okolicu
