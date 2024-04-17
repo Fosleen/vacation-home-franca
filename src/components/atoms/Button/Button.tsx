@@ -10,7 +10,7 @@ const Button: FC<ButtonProps> = ({
   form,
 }) => {
   let buttonClasses =
-    "w-fit px-6 py-2 outline outline-2 outline-main-blue uppercase text-sm bg-light-blue hover:bg-main-blue font-medium hover:transition hover:ease-in-out hover:duration-300 hover:text-white";
+    "w-fit px-6 py-2 outline outline-2 outline-main-blue uppercase text-xs sm:text-sm bg-light-blue hover:bg-main-blue font-medium hover:transition hover:ease-in-out hover:duration-300 hover:text-white";
 
   if (filled) {
     buttonClasses += ` bg-main-blue text-white hover:bg-dark-blue`;

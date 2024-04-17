@@ -10,40 +10,22 @@ const Carousel = () => {
     setImages(carouselImagesData);
   }, []);
 
-  const renderArrowPrev = (clickHandler, hasPrev, label) => {
-    // Define your custom rendering for the previous arrow here
-    return (
-      <button onClick={clickHandler} disabled={!hasPrev}>
-        LIJEVO
-      </button>
-    );
-  };
-
-  const renderArrowNext = (clickHandler, hasNext, label) => {
-    // Define your custom rendering for the next arrow here
-    return (
-      <button onClick={clickHandler} disabled={!hasNext}>
-        DESNO
-      </button>
-    );
-  };
-
   return (
-    <div className="max-h-5">
-      <ReactCarousel
-        autoPlay={true}
-        infiniteLoop={true}
-        dynamicHeight={false}
-        renderArrowPrev={renderArrowPrev}
-        renderArrowNext={renderArrowNext}
-      >
-        {images.map((el, index) => (
-          <div key={index}>
-            <img src={el} alt={`image-${index}`} />
-          </div>
-        ))}
-      </ReactCarousel>
-    </div>
+    <ReactCarousel
+      autoPlay={true}
+      infiniteLoop={true}
+      dynamicHeight={false}
+      showArrows={true}
+      swipeable
+      emulateTouch
+      showStatus={false}
+    >
+      {images.map((el, index) => (
+        <div key={index}>
+          <img src={el} alt={`image-${index}`} />
+        </div>
+      ))}
+    </ReactCarousel>
   );
 };
 

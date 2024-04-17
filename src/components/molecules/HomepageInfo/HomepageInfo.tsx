@@ -6,8 +6,8 @@ const HomepageInfo = () => {
     <div className="w-full mt-8 md:px-8">
       <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row-reverse">
         <div className="lg:py-8 z-10 w-full">
-          <div className="bg-light-blue flex flex-col justify-center items-center gap-6 p-8 pb-16 lg:p-8 lg:translate-x-[-64px] lg:mr-[-64px]">
-            <h2 className="text-xl font-semibold text-center">
+          <div className="bg-light-blue flex flex-col justify-center items-center md:items-start gap-6 p-8 pb-16 lg:p-8 lg:translate-x-[-64px] lg:mr-[-64px]">
+            <h2 className="text-2xl font-semibold text-center">
               DOBRODOŠLI U OAZU MIRA
             </h2>
             <div className="flex flex-col gap-2">
@@ -29,7 +29,7 @@ const HomepageInfo = () => {
             <Button>saznaj više</Button>
           </div>
         </div>
-        <div className="p-8 translate-y-[-64px] lg:translate-y-0 lg:max-w-2xl lg:p-0 z-0">
+        <div className="px-8 translate-y-[-32px] lg:translate-y-0 lg:max-w-2xl lg:p-0 z-20 lg:z-0">
           <img
             src={photo}
             alt="franca-house-photo"
