@@ -6,7 +6,7 @@ const CarouselInfo = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-[url('/src/assets/images/bg-blue.jpg')] w-full bg-cover mt-8">
+    <div className="bg-[url('/src/assets/images/bg-blue.jpg')] w-full bg-cover md:mt-8">
       <div className="w-full lg:mt-8 md:px-8">
         <div className="max-w-screen-xl mx-auto flex flex-col-reverse lg:flex-row w-full lg:gap-8">
           <div className="px-8 md:p-0 md:py-8 lg:w-1/2">
