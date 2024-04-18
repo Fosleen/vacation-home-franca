@@ -1,6 +1,6 @@
-import bookIcon from "../assets/images/book-icon.png";
-import facebookIcon from "../assets/images/facebook-icon.png";
-import airbnbIcon from "../assets/images/airbnb-icon.png";
+import bookIcon from "../assets/icons/book-icon.png";
+import facebookIcon from "../assets/icons/facebook-icon.png";
+import airbnbIcon from "../assets/icons/airbnb-icon.png";
 
 export const footerData = [
   {

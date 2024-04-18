@@ -31,36 +31,34 @@ const Gallery = () => {
   );
 
   return (
-    <div className="w-full mt-8 px-8">
-      <div className="max-w-screen-xl mx-auto">
-        <h2 className="text-2xl font-semibold text-grey-blue uppercase mb-2 text-center md:text-left">
-          Galerija fotografija
-        </h2>
-        <PhotoAlbum
-          photos={galleryImagesData}
-          layout="masonry"
-          padding={(containerWidth) => {
-            if (containerWidth < 640) return 8;
-            if (containerWidth < 768) return 12;
-            return 16;
-          }}
-          targetRowHeight={180}
-          onClick={({ index }) => setIndex(index)}
-          renderPhoto={renderPhoto}
-          columns={(containerWidth) => {
-            if (containerWidth < 640) return 1;
-            if (containerWidth < 768) return 2;
-            return 3;
-          }}
-        />
-        <Lightbox
-          slides={galleryImagesData}
-          open={index >= 0}
-          index={index}
-          close={() => setIndex(-1)}
-          plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
-        />
-      </div>
+    <div>
+      <h2 className="text-2xl font-semibold text-grey-blue uppercase mb-4 text-center md:text-left">
+        Galerija fotografija
+      </h2>
+      <PhotoAlbum
+        photos={galleryImagesData}
+        layout="masonry"
+        padding={(containerWidth) => {
+          if (containerWidth < 640) return 8;
+          if (containerWidth < 768) return 12;
+          return 16;
+        }}
+        targetRowHeight={180}
+        onClick={({ index }) => setIndex(index)}
+        renderPhoto={renderPhoto}
+        columns={(containerWidth) => {
+          if (containerWidth < 640) return 1;
+          if (containerWidth < 768) return 2;
+          return 3;
+        }}
+      />
+      <Lightbox
+        slides={galleryImagesData}
+        open={index >= 0}
+        index={index}
+        close={() => setIndex(-1)}
+        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+      />
     </div>
   );
 };

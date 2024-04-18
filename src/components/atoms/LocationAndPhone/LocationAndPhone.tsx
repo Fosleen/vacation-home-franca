@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import iconLocation from "../../../assets/images/location-icon.png";
-import iconPhone from "../../../assets/images/phone-icon.png";
+import iconLocation from "../../../assets/icons/location-icon.png";
+import iconPhone from "../../../assets/icons/phone-icon.png";
 
 const LocationAndPhone = () => {
   return (
