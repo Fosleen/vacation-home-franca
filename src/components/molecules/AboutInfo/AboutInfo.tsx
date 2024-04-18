@@ -1,7 +1,13 @@
+import { useEffect } from "react";
 import { aboutBadgesData } from "../../../data/AboutBadgesData";
 import InfoItem from "../../atoms/InfoItem";
+import Aos from "aos";
 
 const AboutInfo = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
     <>
       <div>
@@ -37,7 +43,10 @@ const AboutInfo = () => {
               pharetra quam. Ut eget iaculis orci, et semper nunc.
             </p>
           </div>
-          <div className="flex flex-col gap-5 flex-1 bg-light-blue w-full p-4 md:p-8 justify-center h-fit">
+          <div
+            className="flex flex-col gap-5 flex-1 bg-light-blue w-full p-4 md:p-8 justify-center h-fit"
+            data-aos="flip-right"
+          >
             {aboutBadgesData.map((el, index) => (
               <div key={index} className="flex gap-4 items-center">
                 <img

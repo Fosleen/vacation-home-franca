@@ -1,10 +1,17 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import { LandmarkProps } from "../../../common/types";
 import { Link } from "react-router-dom";
+import Aos from "aos";
 
 const Landmark: FC<{ landmark: LandmarkProps }> = ({ landmark }) => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
     <Link
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom"
       to={landmark.url}
       target="_blank"
       className="flex flex-col-reverse gap-4 sm:flex-row items-center"

@@ -1,10 +1,20 @@
 import { ArrowFatLeft, ArrowFatRight } from "@phosphor-icons/react";
 import ContactForm from "../../components/atoms/ContactForm";
+import { useEffect } from "react";
+import Aos from "aos";
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
     <div className="w-full mt-8 px-8">
-      <div className="max-w-screen-xl mx-auto flex-col flex gap-4">
+      <div
+        className="max-w-screen-xl mx-auto flex-col flex gap-4"
+        data-aos="fade-right"
+        data-aos-anchor-placement="center-bottom"
+      >
         <h2 className="text-2xl font-semibold text-grey-blue uppercase mb-4 text-center md:text-left">
           rezervirajte još danas
         </h2>

@@ -12,6 +12,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@phosphor-icons/react": "^2.1.4",
+    "aos": "^2.3.4",
     "hero-slider": "^3.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -22,6 +23,7 @@
     "yet-another-react-lightbox": "^3.17.3"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",

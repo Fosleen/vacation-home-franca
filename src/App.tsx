@@ -3,6 +3,7 @@ import Layout from "./components/layouts/Layout";
 import Homepage from "./pages/Homepage";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import "aos/dist/aos.css";
 
 function App() {
   return (

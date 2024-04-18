@@ -1,9 +1,14 @@
 import { useNavigate } from "react-router-dom";
 import Button from "../../atoms/Button";
 import Carousel from "../../atoms/Carousel";
+import Aos from "aos";
+import { useEffect } from "react";
 
 const CarouselInfo = () => {
   const navigate = useNavigate();
+  useEffect(() => {
+    Aos.init();
+  }, []);
 
   return (
     <div className="bg-[url('/src/assets/images/bg-blue.jpg')] w-full bg-cover md:mt-10">
