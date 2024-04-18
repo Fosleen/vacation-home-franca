@@ -8,7 +8,7 @@ const Navbar: FC<{ setNavOpen: Dispatch<SetStateAction<boolean>> }> = ({
     <div className="flex gap-6 flex-col py-4 md:flex-row">
       <Link
         to="/"
-        className="text-2xl text-center md:text-base"
+        className="text-2xl text-center text-dark-blue md:text-base"
         onClick={() => {
           setNavOpen(false);
         }}
@@ -18,7 +18,7 @@ const Navbar: FC<{ setNavOpen: Dispatch<SetStateAction<boolean>> }> = ({
       <hr className="border-dark-blue w-72 md:hidden" />
       <Link
         to="/o-nama"
-        className="text-2xl text-center md:text-base"
+        className="text-2xl text-center text-dark-blue md:text-base"
         onClick={() => {
           setNavOpen(false);
         }}
@@ -28,7 +28,7 @@ const Navbar: FC<{ setNavOpen: Dispatch<SetStateAction<boolean>> }> = ({
       <hr className="border-dark-blue w-72 md:hidden" />
       <Link
         to="/kontakt"
-        className="text-2xl text-center md:text-base"
+        className="text-2xl text-center text-dark-blue md:text-base"
         onClick={() => {
           setNavOpen(false);
         }}

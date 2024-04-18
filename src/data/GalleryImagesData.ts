@@ -49,7 +49,6 @@ import image47 from "../assets/images/IMG_9993.jpg";
 import image48 from "../assets/images/IMG_9994.jpg";
 import image49 from "../assets/images/IMG_9995.jpg";
 import image50 from "../assets/images/IMG_9996.jpg";
-import image51 from "../assets/images/IMG_9998.jpg";
 
 export const galleryImagesData = [
   { src: image1, width: 4000, height: 2250 },
@@ -65,6 +64,9 @@ export const galleryImagesData = [
   { src: image11, width: 4000, height: 2250 },
   { src: image12, width: 4000, height: 2250 },
 
+  { src: image48, width: 4000, height: 6000 },
+  { src: image49, width: 6000, height: 4000 },
+  { src: image50, width: 6000, height: 4000 },
   { src: image13, width: 4000, height: 6000 },
   { src: image14, width: 4000, height: 6000 },
   { src: image15, width: 6000, height: 4000 },
@@ -74,7 +76,6 @@ export const galleryImagesData = [
   { src: image19, width: 6000, height: 4000 },
   { src: image20, width: 4000, height: 6000 },
   { src: image21, width: 6000, height: 4000 },
-  { src: image22, width: 6000, height: 4000 },
   { src: image22, width: 6000, height: 4000 },
   { src: image23, width: 4000, height: 6000 },
   { src: image24, width: 4000, height: 6000 },
@@ -101,8 +102,4 @@ export const galleryImagesData = [
   { src: image45, width: 4000, height: 6000 },
   { src: image46, width: 6000, height: 4000 },
   { src: image47, width: 4000, height: 6000 },
-  { src: image48, width: 4000, height: 6000 },
-  { src: image49, width: 6000, height: 4000 },
-  { src: image50, width: 6000, height: 4000 },
-  { src: image51, width: 4000, height: 6000 },
 ];
