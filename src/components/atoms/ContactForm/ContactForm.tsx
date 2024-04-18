@@ -55,6 +55,7 @@ const ContactForm = () => {
               <label htmlFor="name">Ime i prezime *</label>
               <input
                 type="text"
+                placeholder="Unesi ime i prezime"
                 name="name"
                 required
                 className="border-main-blue border-2 p-2"
@@ -64,6 +65,7 @@ const ContactForm = () => {
               <label htmlFor="email">E-mail*</label>
               <input
                 type="email"
+                placeholder="Unesi email"
                 name="email"
                 required
                 className="border-main-blue border-2 p-2"
@@ -73,6 +75,7 @@ const ContactForm = () => {
               <label htmlFor="phone">Broj mobitela</label>
               <input
                 type="text"
+                placeholder="Unesi broj mobitela"
                 name="phone"
                 className="border-main-blue border-2 p-2"
               />
@@ -99,6 +102,7 @@ const ContactForm = () => {
             <textarea
               name="message"
               id="message"
+              placeholder="Unesi poruku"
               cols={30}
               rows={16}
               required
