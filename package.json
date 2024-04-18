@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@phosphor-icons/react": "^2.1.4",
     "hero-slider": "^3.2.1",
     "react": "^18.2.0",
@@ -17,6 +18,7 @@
     "react-photo-album": "^2.3.1",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.22.3",
+    "react-toastify": "^10.0.5",
     "yet-another-react-lightbox": "^3.17.3"
   },
   "devDependencies": {

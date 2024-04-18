@@ -17,7 +17,7 @@ const Button: FC<ButtonProps> = ({
   }
 
   if (wider) {
-    buttonClasses += ` px-12`;
+    buttonClasses += ` px-14`;
   }
 
   return (
