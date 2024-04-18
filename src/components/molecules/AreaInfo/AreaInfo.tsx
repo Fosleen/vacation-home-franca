@@ -4,7 +4,7 @@ import Landmark from "../../atoms/Landmark";
 
 const AreaInfo = () => {
   return (
-    <div className="w-full my-8 sm:px-8 relative">
+    <div className="w-full my-12 sm:px-8 relative">
       <img
         src={vector}
         alt="vector-blue-1"

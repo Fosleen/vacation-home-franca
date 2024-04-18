@@ -1,7 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import Button from "../../atoms/Button";
 import Map from "../../atoms/Map";
 
 const LocationInfo = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="w-full mt-8 md:px-8">
       <div className="max-w-screen-xl mx-auto flex items-center flex-col gap-6 lg:flex-row">
@@ -19,9 +22,9 @@ const LocationInfo = () => {
               iaculis orci, et semper nunc.
             </p>
           </div>
-          <Button>saznaj više</Button>
+          <Button onClick={() => navigate("/o-nama")}>saznaj više</Button>
         </div>
-        <div className="w-full">
+        <div className="w-full mt-4 lg:mt-0">
           <Map />
         </div>
       </div>

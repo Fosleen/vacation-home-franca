@@ -14,7 +14,7 @@ const ContactForm = () => {
     toast.error("Došlo je do pogreške, pokušajte ponovo!", {});
   };
 
-  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+  const sendEmail = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     if (form && form.current) {
       emailjs

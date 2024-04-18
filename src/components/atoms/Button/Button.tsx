@@ -17,13 +17,20 @@ const Button: FC<ButtonProps> = ({
   }
 
   if (wider) {
-    buttonClasses += ` px-14`;
+    buttonClasses += ` px-16`;
   }
 
   return (
-    <button onClick={onClick} type={type} className={buttonClasses} form={form}>
-      {children}
-    </button>
+    <div className="hover:cursor-pointer">
+      <button
+        onClick={onClick}
+        type={type}
+        className={buttonClasses}
+        form={form}
+      >
+        {children}
+      </button>
+    </div>
   );
 };
 

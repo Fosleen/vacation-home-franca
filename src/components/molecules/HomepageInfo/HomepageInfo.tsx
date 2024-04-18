@@ -1,10 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import photo from "../../../assets/images/DJI_0056.jpg";
 import vector from "../../../assets/images/vector-1.png";
 import Button from "../../atoms/Button";
 
 const HomepageInfo = () => {
+  const navigate = useNavigate();
+
   return (
-    <div className="w-full mt-8 md:px-8 relative">
+    <div className="w-full mt-12 md:px-8 relative">
       <img
         src={vector}
         alt="vector-blue-1"
@@ -13,7 +16,7 @@ const HomepageInfo = () => {
       <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row-reverse">
         <div className="lg:py-8 z-10 w-full">
           <div className="bg-light-blue flex flex-col justify-center items-center md:items-start gap-6 p-8 pb-16 lg:p-8 lg:translate-x-[-64px] lg:mr-[-64px]">
-            <h2 className="text-2xl font-semibold text-center">
+            <h2 className="text-2xl font-semibold text-center mt-2">
               DOBRODOŠLI U OAZU MIRA
             </h2>
             <div className="flex flex-col gap-2">
@@ -32,7 +35,7 @@ const HomepageInfo = () => {
                 iaculis orci, et semper nunc.
               </p>
             </div>
-            <Button>saznaj više</Button>
+            <Button onClick={() => navigate("/o-nama")}>saznaj više</Button>
           </div>
         </div>
         <div className="px-8 translate-y-[-32px] lg:translate-y-0 lg:max-w-2xl lg:p-0 z-20 lg:z-0">
