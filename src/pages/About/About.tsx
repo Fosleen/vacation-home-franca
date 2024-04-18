@@ -1,5 +1,11 @@
+import Gallery from "../../components/atoms/Gallery";
+
 const About = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      <Gallery />
+    </div>
+  );
 };
 
 export default About;
