@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-dark-blue px-8 pb-16">
+    <div className="bg-dark-blue px-8 pb-32 lg:pb-16">
       <div className="max-w-screen-xl mx-auto">
         <div className="flex flex-col gap-10 py-12 md:flex-row md:justify-between">
           {footerData.map((item, index) => (
