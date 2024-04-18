@@ -50,7 +50,7 @@ import image48 from "../assets/images/IMG_9994.jpg";
 import image49 from "../assets/images/IMG_9995.jpg";
 import image50 from "../assets/images/IMG_9996.jpg";
 
-export const galleryImagesData = [
+export const galleryImagesDataHq = [
   { src: image1, width: 4000, height: 2250 },
   { src: image2, width: 4000, height: 2250 },
   { src: image3, width: 4000, height: 2250 },

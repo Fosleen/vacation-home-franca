@@ -38,8 +38,8 @@ const AboutInfo = () => {
             </p>
           </div>
           <div className="flex flex-col gap-5 flex-1 bg-light-blue w-full p-4 md:p-8 justify-center h-fit">
-            {aboutBadgesData.map((el) => (
-              <div className="flex gap-4 items-center">
+            {aboutBadgesData.map((el, index) => (
+              <div key={index} className="flex gap-4 items-center">
                 <img
                   src={el.icon}
                   alt={el.text}

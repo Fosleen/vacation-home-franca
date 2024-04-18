@@ -1,6 +1,7 @@
 import { useCallback, useState } from "react";
 import { PhotoAlbum, RenderPhotoProps } from "react-photo-album";
-import { galleryImagesData } from "../../../data/GalleryImagesData";
+import { galleryImagesDataHq } from "../../../data/GalleryImagesDataHQ";
+import { galleryImagesDataSq } from "../../../data/GalleryImagesDataSQ";
 import "yet-another-react-lightbox/styles.css";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
@@ -36,7 +37,7 @@ const Gallery = () => {
         Galerija fotografija
       </h2>
       <PhotoAlbum
-        photos={galleryImagesData}
+        photos={galleryImagesDataSq}
         layout="masonry"
         padding={(containerWidth) => {
           if (containerWidth < 640) return 8;
@@ -53,7 +54,7 @@ const Gallery = () => {
         }}
       />
       <Lightbox
-        slides={galleryImagesData}
+        slides={galleryImagesDataHq}
         open={index >= 0}
         index={index}
         close={() => setIndex(-1)}
