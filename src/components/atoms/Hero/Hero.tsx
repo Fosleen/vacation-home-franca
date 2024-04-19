@@ -45,21 +45,25 @@ const Hero = () => {
         <Slide
           background={{
             backgroundImageSrc: hero1,
+            shouldLazyLoad: false,
           }}
         />
         <Slide
           background={{
             backgroundImageSrc: hero2,
+            shouldLazyLoad: false,
           }}
         />
         <Slide
           background={{
             backgroundImageSrc: hero3,
+            shouldLazyLoad: false,
           }}
         />
         <Slide
           background={{
             backgroundImageSrc: hero4,
+            shouldLazyLoad: false,
           }}
         />
       </HeroSlider>
