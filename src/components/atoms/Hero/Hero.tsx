@@ -1,9 +1,7 @@
 import { Slide } from "hero-slider";
 import HeroSlider from "hero-slider/dist/HeroSlider";
 import hero1 from "../../../assets/images/hero/DJI_0039.jpg";
-import hero2 from "../../../assets/images/hero/DJI_0057.jpg";
 import hero3 from "../../../assets/images/hero/DJI_0060.jpg";
-import hero4 from "../../../assets/images/hero/DJI_0043.jpg";
 import "hero-slider/dist/index.css";
 import { useEffect, useState } from "react";
 
@@ -50,19 +48,7 @@ const Hero = () => {
         />
         <Slide
           background={{
-            backgroundImageSrc: hero2,
-            shouldLazyLoad: false,
-          }}
-        />
-        <Slide
-          background={{
             backgroundImageSrc: hero3,
-            shouldLazyLoad: false,
-          }}
-        />
-        <Slide
-          background={{
-            backgroundImageSrc: hero4,
             shouldLazyLoad: false,
           }}
         />
