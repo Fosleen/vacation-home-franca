@@ -1,6 +1,7 @@
 import { landmarksData } from "../../../data/LandmarksData";
 import vector from "../../../assets/images/vector-2.png";
 import Landmark from "../../atoms/Landmark";
+import CustomMap from "../../atoms/CustomMap";
 
 const AreaInfo = () => {
   return (
@@ -14,9 +15,10 @@ const AreaInfo = () => {
         <h2 className="text-2xl font-bold text-center uppercase">
           istražite okolicu
         </h2>
+        <CustomMap />
         <div className="flex flex-col px-8 sm:px-0 py-2 gap-8 lg:grid lg:grid-cols-2">
-          {landmarksData.map((el) => (
-            <Landmark landmark={el} />
+          {landmarksData.map((el, index) => (
+            <Landmark landmark={el} key={index} />
           ))}
         </div>
       </div>
