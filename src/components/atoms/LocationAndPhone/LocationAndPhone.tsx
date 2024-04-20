@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import iconLocation from "../../../assets/icons/location-icon.png";
 import iconPhone from "../../../assets/icons/phone-icon.png";
+import { FormattedMessage } from "react-intl";
 
 const LocationAndPhone = () => {
   return (
@@ -8,7 +9,7 @@ const LocationAndPhone = () => {
       <span className="flex gap-1">
         <img src={iconLocation} alt="location-icon" />
         <p className="text-xs flex items-center text-dark-blue">
-          Trešćerovac 14, 47280 Ozalj, Croatia
+          Trešćerovac 14, 47280 Ozalj, <FormattedMessage id="croatia" />
         </p>
       </span>
       <span className="flex gap-1">

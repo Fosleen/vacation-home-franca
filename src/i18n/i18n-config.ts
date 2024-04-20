@@ -1,7 +1,7 @@
 import hrMessages from "./hr.json";
 import enMessages from "./en.json";
 
-export const defaultLocale = "en";
+export const defaultLocale = "hr";
 
 export const locales = {
   en: {

@@ -14,7 +14,6 @@ const Contact = () => {
       <div
         className="max-w-screen-xl mx-auto flex-col flex gap-4"
         data-aos="fade-right"
-        data-aos-anchor-placement="center-bottom"
       >
         <h2 className="text-2xl font-semibold text-grey-blue uppercase mb-4 text-center md:text-left">
           <FormattedMessage id="contact.title" />

@@ -2,7 +2,7 @@
 // @ts-nocheck
 
 import emailjs from "@emailjs/browser";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Button from "../Button";
@@ -10,12 +10,18 @@ import { FormattedMessage } from "react-intl";
 
 const ContactForm = () => {
   const form = useRef<HTMLFormElement | string>("");
+  const [arrivalDate, setArrivalDate] = useState<string | null>(null);
+  const today = new Date().toISOString().split("T")[0];
 
   const success_ = () => {
     toast.success("Uspješno poslano", {});
   };
   const error_ = () => {
     toast.error("Došlo je do pogreške, pokušajte ponovo!", {});
+  };
+
+  const handleArrivalDateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setArrivalDate(e.target.value);
   };
 
   const sendEmail = (e: { preventDefault: () => void }) => {
@@ -90,6 +96,8 @@ const ContactForm = () => {
                 type="date"
                 name="checkin"
                 className="border-main-blue border-2 p-2"
+                min={today}
+                onChange={handleArrivalDateChange}
               />
             </div>
             <div className="flex flex-col gap-1">
@@ -100,6 +108,7 @@ const ContactForm = () => {
                 type="date"
                 name="checkout"
                 className="border-main-blue border-2 p-2"
+                min={arrivalDate}
               />
             </div>
           </div>

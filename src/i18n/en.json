@@ -13,7 +13,7 @@
     "6": "cycling"
   },
   "homepage-info.title": "WELCOME TO THE OASIS OF PEACE",
-  "homepage-info.text.1": "Planning a weekend getaway from the city hustle and bustle? Allow us to introduce our oasis of peace, not far from Karlovac - the ideal place for a relaxing vacation with family, friends, or as a haven for anglers!",
+  "homepage-info.text.1": "Planning a weekend getaway from the city hustle and bustle? Allow us to introduce our oasis of peace, not far from Karlovac - the ideal place for a relaxing vacation with family, friends, or as a heaven for anglers!",
   "homepage-info.text.2": "Our vacation house Franca offers everything you need for the perfect riverside retreat: comfortable accommodation, stunning views, and fresh air. Additional bonus: the owner offers boat rides for exploring the surrounding area on water.",
   "location-info.title": "river silence",
   "location-info.text.1": "Enjoy the birdsong, the murmur of the river, and the tranquil silence. Relax your body and soul by lying on the riverbank, swimming, or exploring by boat all the benefits of the Kupa River.",
@@ -84,5 +84,6 @@
   "btn.find-out-more": "find out more",
   "btn.photo-gallery": "photo gallery",
   "btn.reserve": "reserve",
-  "btn.send": "send message"
+  "btn.send": "send message",
+  "croatia": "Croatia"
 }
