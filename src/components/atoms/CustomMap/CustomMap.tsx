@@ -5,6 +5,7 @@ import swim from "../../../assets/icons/person-simple-swim-ph-icon.png";
 import castle from "../../../assets/icons/castle-turret-ph-icon.png";
 import church from "../../../assets/icons/church-ph-icon.png";
 import mountain from "../../../assets/icons/mountains-ph-icon.png";
+import house from "../../../assets/icons/house-line-ph-icon.png";
 
 const CustomMap = () => {
   const swimIcon = new L.Icon({
@@ -31,7 +32,12 @@ const CustomMap = () => {
     popupAnchor: [-0, -0],
     iconSize: [24, 24],
   });
-
+  const houseIcon = new L.Icon({
+    iconUrl: house,
+    iconRetinaUrl: house,
+    popupAnchor: [-0, -0],
+    iconSize: [24, 24],
+  });
   return (
     <>
       <MapContainer
@@ -44,7 +50,10 @@ const CustomMap = () => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={[45.608565036279934, 15.530461369479793]}>
+        <Marker
+          position={[45.608565036279934, 15.530461369479793]}
+          icon={houseIcon}
+        >
           <Popup>Kuća za odmor Franca</Popup>
         </Marker>
         <Marker position={[45.6195784, 15.5040137]} icon={swimIcon}>
