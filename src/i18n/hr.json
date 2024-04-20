@@ -1,0 +1,89 @@
+{
+  "navbar.homepage": "POČETNA",
+  "navbar.about": "O NAMA",
+  "navbar.contact": "KONTAKT",
+  "hero.title.top": "odmori dušu uz rijeku",
+  "hero.title.bottom": "~ kuća za odmor",
+  "badges": {
+    "1": "72 m²",
+    "2": "besplatan parking",
+    "3": "priroda",
+    "4": "dozvoljeni ljubimci",
+    "5": "riječno kupalište",
+    "6": "biciklizam"
+  },
+  "homepage-info.title": "DOBRODOŠLI U OAZU MIRA",
+  "homepage-info.text.1": "Planirate vikend bijeg iz gradske vreve? Predstavljamo Vam našu oazu mira nedaleko Karlovca - idealno mjesto za opuštajući odmor s obitelji, prijateljima ili kao raj za ribolovce!",
+  "homepage-info.text.2": "Naša kuća za odmor Franca nudi sve što Vam treba za savršen odmor uz rijeku: udoban smještaj, prekrasan pogled i čist zrak. Dodatni bonus: vlasnik nudi vožnju čamcem kako biste istražili okolicu na vodi.",
+  "location-info.title": "riječna tišina",
+  "location-info.text.1": "Uživajte u cvrkutu ptica, žuboru rijeke i spokojnoj tišini. Odmorite dušu i tijelo ležeći na obali, plivajući ili istražujući čamcem sve blagodati rijeke Kupe.",
+  "location-info.text.2": "Ovaj raj na rijeci udaljen je samo 5 kilometara od grada Ozlja, 15 kilometara od grada Karlovca te 50 minuta vožnje od zračne luke Franjo Tuđman Zagreb.",
+  "house-info.title": "O KUĆI FRANCA",
+  "house-info.text.1": "Ova šarmantna kućica nudi udobnost i mir sa svojom prostranom spavaćom sobom, ugodnim dnevnim boravkom, modernom kupaonicom, potpuno opremljenom kuhinjom i prostranim hodnikom.",
+  "house-info.text.2": "Kuća je opremljena sa svom opremom koja je potrebna za odmor.",
+  "area-info.title": "istražite okolicu",
+  "footer": {
+    "1": { "name": "VREMENSKA PROGNOZA" },
+    "2": { "name": "GALERIJA FOTOGRAFIJA" },
+    "3": { "name": "KONTAKTIRAJTE NAS" },
+    "4": { "name": "VISIT KUPA - OZALJ" },
+    "5": { "name": "TURISTIČKA ZAJEDNICA GRADA KARLOVCA" }
+  },
+  "landmarks": {
+    "1": {
+      "title": "Explore Ozalj",
+      "description": "Istražite bogatu povijest i kulturno naslijeđe ovog slikovitog gradića smještenog na obalama rijeke Kupe. Zavirite u svijet Zrinskih i Frankopana prilikom posjete Starom gradu Ozlju i Zavičajnom muzeju."
+    },
+    "2": {
+      "title": "WRC Rally",
+      "description": "Kuća se nalazi u blizini rute WRC rallya te je stoga idealan izbor i za ljubitelje brze vožnje i adrenalina."
+    },
+    "3": {
+      "title": "Štrudlafest",
+      "description": "Svi posjetitelji ljubitelji slatkog uživat će u čarima najbolje štrudle na svijetu. Jaškovo - selo štrudle oborilo je Guinessov rekord za najdužu štrudlu!"
+    },
+    "4": {
+      "title": "Grad na 4 rijeke",
+      "description": "Istražite čari grada na četiri rijeke. Prošećite kroz staru gradsku jezgru,  posjetite Stari grad Dubovac, prošećite obalom rijeke Korane te zavirite u riblji svijet u prvom hrvatskom riječnom akvariju Aquatika."
+    },
+    "5": {
+      "title": "Biciklistički raj",
+      "description": "Za sve ljubitelje aktivnog odmora tu su brojne biciklističke i pješačke rute. Duž ovih ruta možete upoznati prirodu ozaljskog kraja, uživati u nevjerojatnim pogledima i okrijepiti se proizvodima lokalnih OPG-ova."
+    },
+    "6": {
+      "title": "Jezera Šljunčare",
+      "description": "Svi ljubitelji ribolova svoje utočište će naći na obližnjim ribolovnim jezerima Šljunčare. 9 jezera obiluje somovima, štukama, šaranima i ostalim ribljim vrstama."
+    }
+  },
+  "about.title": "ŠTO NUDI FRANCA?",
+  "about.text.1": "U kući za odmor Franca očekuje vas udobnost u svakom kutku: prostrana spavaća soba, dnevni boravak, potpuno opremljena kuhinja i kupaonica. No, to je tek početak!",
+  "about.text.2": "Uživajte na terasi koja je opremljena krušnom peći i roštiljem koje možete koristiti. Kuća ima i uređen pristup rijeci gdje se možete osvježiti plivajući tijekom vrućih ljetnih dana.",
+  "about.text.3": "Ova kuća više je od samog smještaja, ona je prava oaza mira. Idealna je za obitelji, prijatelje, ribolovce, ljubitelje prirode i, naravno, vaše ljubimce! Uz sve pogodnosti koje Kuća za odmor Franca pruža, vlasnik dodatno nudi mogućnost vožnje čamcem duž rijeke, omogućujući Vam da istražite čarobne pejzaže iz potpuno nove perspektive.",
+  "about.info.1": "Dozvoljen je boravak kućnih ljubimaca i ne naplaćuje se.",
+  "about.info.2": "Pušenje u kući nije dozvoljeno.",
+  "about.info.3": "U ovom objektu nije moguće održavanje momačkih, djevojačkih i sličnih zabava.",
+  "about": {
+    "badge": {
+      "text": {
+        "1": "riječno privatno kupalište iza objekta",
+        "2": "ciglena pečenjara",
+        "3": "dopušteno za ljubimce",
+        "4": "besplatan parking u sklopu objekta",
+        "5": "biciklističke staze"
+      }
+    }
+  },
+  "contact.title": "Rezervirajte još danas",
+  "contact.text.1": "Imate pitanja oko smještaja ili želite rezervirati termin u kući za odmor Franca?",
+  "contact.text.2": "Javite nam se putem ovog obrasca. Veselimo se Vašoj poruci te ćemo odgovoriti u najkraćem mogućem roku.",
+  "contact.name": "Ime i prezime *",
+  "contact.phone": "Broj telefona",
+  "contact.arrival": "Datum dolaska",
+  "contact.departure": "Datum odlaska",
+  "contact.message": "Poruka *",
+  "btn.find-out-more": "saznaj više",
+  "btn.photo-gallery": "galerija fotografija",
+  "btn.reserve": "rezerviraj",
+  "btn.send": "pošalji poruku",
+  "croatia": "Hrvatska"
+}

@@ -1,0 +1,89 @@
+{
+  "navbar.homepage": "HOMEPAGE",
+  "navbar.about": "ABOUT US",
+  "navbar.contact": "CONTACT",
+  "hero.title.top": "rest your soul by the river",
+  "hero.title.bottom": "~ vacation home",
+  "badges": {
+    "1": "72 m²",
+    "2": "free parking",
+    "3": "nature",
+    "4": "pets allowed",
+    "5": "river beach",
+    "6": "cycling"
+  },
+  "homepage-info.title": "WELCOME TO THE OASIS OF PEACE",
+  "homepage-info.text.1": "Planning a weekend getaway from the city hustle and bustle? Allow us to introduce our oasis of peace, not far from Karlovac - the ideal place for a relaxing vacation with family, friends, or as a heaven for anglers!",
+  "homepage-info.text.2": "Our vacation house Franca offers everything you need for the perfect riverside retreat: comfortable accommodation, stunning views, and fresh air. Additional bonus: the owner offers boat rides for exploring the surrounding area on water.",
+  "location-info.title": "river silence",
+  "location-info.text.1": "Enjoy the birdsong, the murmur of the river, and the tranquil silence. Relax your body and soul by lying on the riverbank, swimming, or exploring by boat all the benefits of the Kupa River.",
+  "location-info.text.2": "This riverside paradise is only 5 kilometers away from the town of Ozalj, 15 kilometers from the town of Karlovac, and a 50-minute drive from Franjo Tuđman Zagreb Airport.",
+  "house-info.title": "ABOUT FRANCA",
+  "house-info.text.1": "This charming house offers comfort and peace with its spacious bedroom, cozy living room, modern bathroom, fully equipped kitchen, and ample hallway.",
+  "house-info.text.2": "The house is equipped with all the equipment needed for a vacation.",
+  "area-info.title": "explore the surroundings",
+  "footer": {
+    "1": { "name": "WEATHER FORECAST" },
+    "2": { "name": "PHOTO GALLERY" },
+    "3": { "name": "CONTACT US" },
+    "4": { "name": "VISIT KUPA - OZALJ" },
+    "5": { "name": "TOURIST BOARD OF THE CITY OF KARLOVAC" }
+  },
+  "landmarks": {
+    "1": {
+      "title": "Explore Ozalj",
+      "description": "Explore the rich history and cultural heritage of this picturesque town located on the banks of the Kupa River. Dive into the world of the Zrinski and Frankopan families when visiting the Old Town of Ozalj."
+    },
+    "2": {
+      "title": "WRC Rally",
+      "description": "The house is located near the WRC rally route, making it an ideal choice for fans of fast driving and adrenaline."
+    },
+    "3": {
+      "title": "Štrudlafest",
+      "description": "All sweet lovers among visitors will enjoy the charms of the world's best strudel. Jaškovo - the strudel village has broken the Guinness World Record for the longest strudel!"
+    },
+    "4": {
+      "title": "The 4 rivers city",
+      "description": "Explore the charms of the city on four rivers. Take a stroll through the old town center, visit the Old Town of Dubovac, walk along the banks of the river Korana, and peek into the fish world at the first Croatian river aquarium Aquatika. "
+    },
+    "5": {
+      "title": "Cycling paradise",
+      "description": "For all lovers of active leisure, there are numerous cycling and hiking routes. Along these routes, you can explore the nature of the Ozalj region, enjoy incredible views, and refresh yourself with products from local family farms."
+    },
+    "6": {
+      "title": "Šljunčara Lakes",
+      "description": "Angling enthusiasts will find their sanctuary at the nearby fishing lakes of Šljunčare. The 9 lakes abound with catfish, pike, carp, and other fish species."
+    }
+  },
+  "about.title": "WHAT FRANCA OFFERS?",
+  "about.text.1": "At Franca's vacation home, comfort awaits you in every corner: spacious bedroom, living room, fully equipped kitchen, and bathroom. But that's just the beginning!",
+  "about.text.2": "Enjoy the terrace equipped with a bread oven and barbecue that you can use. The house also has a landscaped access to the river where you can refresh yourself by swimming during hot summer days.",
+  "about.text.3": "This house is more than just accommodation; it is a true oasis of peace. Ideal for families, friends, anglers, nature lovers, and, of course, your pets! In addition to all the amenities that Franca's vacation home offers, the owner also offers the option of boat tour along the river, allowing you to explore the magical landscapes from a completely new perspective.",
+  "about.info.1": "Pets are allowed and incur no extra charges.",
+  "about.info.2": "Smoking is not allowed in the house.",
+  "about.info.3": "This property does not allow bachelor, bachelorette, and similar parties.",
+  "about": {
+    "badge": {
+      "text": {
+        "1": "private river beach behind the property",
+        "2": "brick barbecue",
+        "3": "pet-friendly",
+        "4": "free on-site parking",
+        "5": "bike trails"
+      }
+    }
+  },
+  "contact.title": "Book today!",
+  "contact.text.1": "Do you have any questions about the accommodation or would you like to reserve a date at the Franca vacation home?",
+  "contact.text.2": "Contact us via this form. We look forward to your message and will respond as soon as possible.",
+  "contact.name": "Name and surname *",
+  "contact.phone": "Phone number",
+  "contact.arrival": "Arrival date",
+  "contact.departure": "Departure date",
+  "contact.message": "Message *",
+  "btn.find-out-more": "find out more",
+  "btn.photo-gallery": "photo gallery",
+  "btn.reserve": "reserve",
+  "btn.send": "send message",
+  "croatia": "Croatia"
+}
