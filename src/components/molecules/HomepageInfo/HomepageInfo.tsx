@@ -4,6 +4,7 @@ import vector from "../../../assets/images/vector-1.png";
 import Button from "../../atoms/Button";
 import Aos from "aos";
 import { useEffect } from "react";
+import { FormattedMessage } from "react-intl";
 
 const HomepageInfo = () => {
   const navigate = useNavigate();
@@ -25,25 +26,20 @@ const HomepageInfo = () => {
         <div className="lg:py-8 z-10 w-full">
           <div className="bg-light-blue flex flex-col justify-center items-center md:items-start gap-6 p-8 pb-16 lg:p-8 lg:translate-x-[-64px] lg:mr-[-64px]">
             <h2 className="text-2xl font-semibold text-center mt-2">
-              DOBRODOŠLI U OAZU MIRA
+              <FormattedMessage id="homepage-info.title" />
             </h2>
             <div className="flex flex-col gap-2">
               <p className="text-justify">
-                Cras massa ex, accumsan in ornare ut, sagittis sed dui. Mauris
-                sagittis sed eros in faucibus. Aliquam augue ipsum, imperdiet
-                sit amet ultrices eget, vestibulum ac velit sit amet ultrices
-                eget, vestibulum ac velit sit amet ultrices eget, vestibulum ac
-                velit.
+                <FormattedMessage id="homepage-info.text.1" />
               </p>
               <hr className="w-full border-main-blue" />
               <p className="text-justify">
-                Nullam ullamcorper suscipit posuere. Fusce in scelerisque erat.
-                Nunc quis metus nunc. Morbi vitae pretium lacus, eget congue
-                purus. Quisque sed bibendum eros, vitae pharetra quam. Ut eget
-                iaculis orci, et semper nunc.
+                <FormattedMessage id="homepage-info.text.2" />
               </p>
             </div>
-            <Button onClick={() => navigate("/o-nama")}>saznaj više</Button>
+            <Button onClick={() => navigate("/o-nama")}>
+              <FormattedMessage id="btn.find-out-more" />
+            </Button>
           </div>
         </div>
         <div className="px-8 translate-y-[-32px] lg:translate-y-0 lg:max-w-2xl lg:p-0 z-20 lg:z-0">

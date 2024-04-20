@@ -1,9 +1,12 @@
 import { FC, useEffect } from "react";
-import { LandmarkProps } from "../../../common/types";
+import { LandmarkProps, TranslatedDataProps } from "../../../common/types";
 import { Link } from "react-router-dom";
 import Aos from "aos";
 
-const Landmark: FC<{ landmark: LandmarkProps }> = ({ landmark }) => {
+const Landmark: FC<{
+  landmark: LandmarkProps;
+  translatedData: TranslatedDataProps;
+}> = ({ landmark, translatedData }) => {
   useEffect(() => {
     Aos.init();
   }, []);
@@ -22,16 +25,16 @@ const Landmark: FC<{ landmark: LandmarkProps }> = ({ landmark }) => {
         </p>
         <img
           src={landmark.img}
-          alt={landmark.title}
+          alt={landmark.img}
           className="max-h-48 w-full object-cover h-full sm:py-4 sm:pr-8 sm:max-h-none"
         />
       </div>
       <div className="flex gap-2 flex-col flex-1 justify-center items-start sm:p-8 sm:translate-x-[-156px] sm:mr-[-156px] sm:bg-light-blue lg:h-64">
         <h2 className="text-2xl font-semibold uppercase sm:pl-24">
-          {landmark.title}
+          {translatedData.title}
         </h2>
         <p className="text-justify sm:pl-24 sm:text-left md:text-xl lg:text-base">
-          {landmark.description}
+          {translatedData.description}
         </p>
       </div>
     </Link>

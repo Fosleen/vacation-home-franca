@@ -2,6 +2,7 @@ import { ArrowFatLeft, ArrowFatRight } from "@phosphor-icons/react";
 import ContactForm from "../../components/atoms/ContactForm";
 import { useEffect } from "react";
 import Aos from "aos";
+import { FormattedMessage } from "react-intl";
 
 const Contact = () => {
   useEffect(() => {
@@ -16,15 +17,13 @@ const Contact = () => {
         data-aos-anchor-placement="center-bottom"
       >
         <h2 className="text-2xl font-semibold text-grey-blue uppercase mb-4 text-center md:text-left">
-          rezervirajte još danas
+          <FormattedMessage id="contact.title" />
         </h2>
         <p>
-          Imate pitanja oko smještaja ili želite rezervirati termin u kući za
-          odmor Franca?
+          <FormattedMessage id="contact.text.1" />
         </p>
         <p>
-          Javite nam se putem ovog obrasca. Veselimo se Vašoj poruci te ćemo
-          odgovoriti u najkraćem mogućem roku.
+          <FormattedMessage id="contact.text.2" />
         </p>
         <div className="bg-middle-blue rounded-full flex flex-col gap-2 py-4 px-8 w-fit">
           <div className="flex gap-2">

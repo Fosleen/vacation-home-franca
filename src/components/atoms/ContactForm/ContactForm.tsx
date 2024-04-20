@@ -6,6 +6,7 @@ import { useRef } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Button from "../Button";
+import { FormattedMessage } from "react-intl";
 
 const ContactForm = () => {
   const form = useRef<HTMLFormElement | string>("");
@@ -52,10 +53,11 @@ const ContactForm = () => {
         <div className="flex flex-col md:flex-row gap-4 w-full">
           <div className="flex flex-col gap-4 w-full">
             <div className="flex flex-col gap-1">
-              <label htmlFor="name">Ime i prezime *</label>
+              <label htmlFor="name">
+                <FormattedMessage id="contact.name" />
+              </label>
               <input
                 type="text"
-                placeholder="Unesi ime i prezime"
                 name="name"
                 required
                 className="border-main-blue border-2 p-2"
@@ -65,23 +67,25 @@ const ContactForm = () => {
               <label htmlFor="email">E-mail*</label>
               <input
                 type="email"
-                placeholder="Unesi email"
                 name="email"
                 required
                 className="border-main-blue border-2 p-2"
               />
             </div>
             <div className="flex flex-col gap-1">
-              <label htmlFor="phone">Broj mobitela</label>
+              <label htmlFor="phone">
+                <FormattedMessage id="contact.phone" />
+              </label>
               <input
                 type="text"
-                placeholder="Unesi broj mobitela"
                 name="phone"
                 className="border-main-blue border-2 p-2"
               />
             </div>
             <div className="flex flex-col gap-1">
-              <label htmlFor="checkin">Datum dolaska</label>
+              <label htmlFor="checkin">
+                <FormattedMessage id="contact.arrival" />
+              </label>
               <input
                 type="date"
                 name="checkin"
@@ -89,7 +93,9 @@ const ContactForm = () => {
               />
             </div>
             <div className="flex flex-col gap-1">
-              <label htmlFor="checkout">Datum odlaska</label>
+              <label htmlFor="checkout">
+                <FormattedMessage id="contact.departure" />
+              </label>
               <input
                 type="date"
                 name="checkout"
@@ -98,11 +104,12 @@ const ContactForm = () => {
             </div>
           </div>
           <div className="w-full">
-            <label htmlFor="message">Poruka *</label>
+            <label htmlFor="message">
+              <FormattedMessage id="contact.message" />
+            </label>
             <textarea
               name="message"
               id="message"
-              placeholder="Unesi poruku"
               cols={30}
               rows={16}
               required
@@ -112,7 +119,7 @@ const ContactForm = () => {
         </div>
         <div id="btnSend" className="p-[2px] w-full flex justify-end">
           <Button filled wider type="submit">
-            POŠALJI PORUKU
+            <FormattedMessage id="btn.send" />
           </Button>
         </div>
       </form>

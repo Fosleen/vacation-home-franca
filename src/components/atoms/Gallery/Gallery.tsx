@@ -9,6 +9,7 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import Lightbox from "yet-another-react-lightbox";
+import { FormattedMessage } from "react-intl";
 
 const Gallery = () => {
   const [index, setIndex] = useState(-1);
@@ -34,7 +35,7 @@ const Gallery = () => {
   return (
     <div>
       <h2 className="text-2xl font-semibold text-grey-blue uppercase mb-4 text-center md:text-left">
-        Galerija fotografija
+        <FormattedMessage id="btn.photo-gallery" />
       </h2>
       <PhotoAlbum
         photos={galleryImagesDataSq}

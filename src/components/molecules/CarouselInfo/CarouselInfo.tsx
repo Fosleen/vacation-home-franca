@@ -3,6 +3,7 @@ import Button from "../../atoms/Button";
 import Carousel from "../../atoms/Carousel";
 import Aos from "aos";
 import { useEffect } from "react";
+import { FormattedMessage } from "react-intl";
 
 const CarouselInfo = () => {
   const navigate = useNavigate();
@@ -19,24 +20,14 @@ const CarouselInfo = () => {
           </div>
           <div className="flex flex-col justify-center items-center md:items-start gap-6 p-8 pb-12 md:pb-0 pt-12 md:px-0 lg:py-8 lg:mb-24">
             <h2 className="text-2xl font-semibold text-center text-light-blue">
-              O KUĆI FRANCA
+              <FormattedMessage id="house-info.title" />
             </h2>
             <div className="flex flex-col gap-4">
               <p className="text-justify text-light-blue">
-                Cras massa ex, accumsan in ornare ut, sagittis sed dui. Mauris
-                sagittis sed eros in faucibus. Aliquam augue ipsum. Cras massa
-                ex, accumsan in ornare ut, sagittis sed dui. Mauris sagittis sed
-                eros in faucibus. Aliquam.
+                <FormattedMessage id="house-info.text.1" />
               </p>
               <p className="text-justify text-light-blue">
-                Nullam ullamcorper suscipit posuere. Fusce in scelerisque erat.
-                Nunc quis metus nunc. Morbi vitae pretium lacus, eget congue
-                purus. Quisque sed bibendum eros, vitae pharetra quam. Ut eget
-                iaculis orci, et semper nunc.
-              </p>
-              <p className="text-justify text-light-blue">
-                Quisque sed bibendum eros, vitae pharetra quam. Ut eget iaculis
-                orci, et semper nunc.
+                <FormattedMessage id="house-info.text.2" />
               </p>
             </div>
             <div
@@ -44,9 +35,11 @@ const CarouselInfo = () => {
               w-full gap-4 justify-center md:justify-start"
             >
               <Button onClick={() => navigate("/o-nama")}>
-                GALERIJA FOTOGRAFIJA
+                <FormattedMessage id="btn.photo-gallery" />
               </Button>
-              <Button onClick={() => navigate("/kontakt")}>REZERVIRAJ</Button>
+              <Button onClick={() => navigate("/kontakt")}>
+                <FormattedMessage id="btn.reserve" />
+              </Button>
             </div>
           </div>
         </div>

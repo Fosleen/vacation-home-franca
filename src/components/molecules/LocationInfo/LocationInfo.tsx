@@ -3,6 +3,7 @@ import Button from "../../atoms/Button";
 import Map from "../../atoms/Map";
 import { useEffect } from "react";
 import Aos from "aos";
+import { FormattedMessage } from "react-intl";
 
 const LocationInfo = () => {
   const navigate = useNavigate();
@@ -18,20 +19,20 @@ const LocationInfo = () => {
           data-aos="fade-right"
           data-aos-anchor-placement="center-bottom"
         >
-          <h2 className="text-2xl font-semibold text-center">RIJEČNA TIŠINA</h2>
+          <h2 className="text-2xl font-semibold text-center uppercase">
+            <FormattedMessage id="location-info.title" />
+          </h2>
           <div className="flex flex-col gap-2">
             <p className="text-justify">
-              Cras massa ex, accumsan in ornare ut, sagittis sed dui. Mauris
-              sagittis sed eros in faucibus. Aliquam augue ipsum.
+              <FormattedMessage id="location-info.text.1" />
             </p>
             <p className="text-justify">
-              Nullam ullamcorper suscipit posuere. Fusce in scelerisque erat.
-              Nunc quis metus nunc. Morbi vitae pretium lacus, eget congue
-              purus. Quisque sed bibendum eros, vitae pharetra quam. Ut eget
-              iaculis orci, et semper nunc.
+              <FormattedMessage id="location-info.text.2" />
             </p>
           </div>
-          <Button onClick={() => navigate("/o-nama")}>saznaj više</Button>
+          <Button onClick={() => navigate("/o-nama")}>
+            <FormattedMessage id="btn.find-out-more" />
+          </Button>
         </div>
         <div className="w-full mt-4 lg:mt-0">
           <Map />

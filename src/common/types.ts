@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export interface ButtonProps {
   children: React.ReactNode;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
@@ -8,8 +10,20 @@ export interface ButtonProps {
 }
 
 export interface LandmarkProps {
-  title: string;
-  description: string;
   img: string;
   url: string;
+}
+
+export interface ChildrenProps {
+  children: ReactNode;
+}
+
+export interface TranslatedDataProps {
+  title: string;
+  description: string;
+}
+
+export interface LocaleContextType {
+  locale: string;
+  setLocale: (locale: string) => void; 
 }

@@ -1,46 +1,37 @@
-import { useEffect } from "react";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
+import { useContext, useEffect } from "react";
 import { aboutBadgesData } from "../../../data/AboutBadgesData";
 import InfoItem from "../../atoms/InfoItem";
 import Aos from "aos";
+import { FormattedMessage } from "react-intl";
+import { LocaleContext } from "../../../i18n/LocaleContext";
+import hrData from "../../../i18n/hr.json";
+import enData from "../../../i18n/en.json";
 
 const AboutInfo = () => {
   useEffect(() => {
     Aos.init();
   }, []);
+  const { locale } = useContext(LocaleContext);
+  const data = locale === "hr" ? hrData : enData;
 
   return (
     <>
       <div>
         <h2 className="text-2xl font-semibold text-grey-blue uppercase mb-4 text-center md:text-left">
-          ŠTO NUDI FRANCA?
+          <FormattedMessage id="about.title" />
         </h2>
         <div className="flex flex-col lg:flex-row gap-8 items-start">
           <div className="flex flex-col gap-4 flex-1">
             <p className="text-justify">
-              Cras massa ex, accumsan in ornare ut, sagittis sed dui. Mauris
-              sagittis sed eros in faucibus.
-            </p>
-            <p className="text-justify">Aliquam augue ipsum augue ipsum.</p>
-            <p className="text-justify">
-              Nullam ullamcorper suscipit posuere. Fusce in scelerisque erat.
-              Nunc quis metus nunc. Morbi vitae pretium lacus, eget congue
-              purus. Quisque sed bibendum eros, vitae pharetra quam. Ut eget
-              iaculis orci, et semper nunc.
+              <FormattedMessage id="about.text.1" />
             </p>
             <p className="text-justify">
-              Nullam ullamcorper suscipit posuere. Fusce in scelerisque erat.
-              Nunc quis metus nunc. Morbi vitae pretium lacus, eget congue
-              purus. Quisque sed bibendum eros, vitae pharetra quam. Ut eget
-              iaculis orci, et semper nunc.
+              <FormattedMessage id="about.text.2" />
             </p>
             <p className="text-justify">
-              Nullam ullamcorper suscipit posuere. Fusce in scelerisque erat.
-              Nunc quis metus nunc. Morbi vitae pretium lacus, eget congue
-              purus. Quisque sed bibendum eros, vitae pharetra quam. Ut eget
-              iaculis orci, et semper nunc.Nullam ullamcorper suscipit posuere.
-              Fusce in scelerisque erat. Nunc quis metus nunc. Morbi vitae
-              pretium lacus, eget congue purus. Quisque sed bibendum eros, vitae
-              pharetra quam. Ut eget iaculis orci, et semper nunc.
+              <FormattedMessage id="about.text.3" />
             </p>
           </div>
           <div
@@ -54,7 +45,7 @@ const AboutInfo = () => {
                   alt={el.text}
                   className="w-8 h-8 md:w-10 md:h-10"
                 />
-                <p>{el.text}</p>
+                <p>{data.about.badge.text[index + 1]}</p>
               </div>
             ))}
           </div>
