@@ -64,7 +64,7 @@ const ContactForm = () => {
               />
             </div>
             <div className="flex flex-col gap-1">
-              <label htmlFor="email">E-mail*</label>
+              <label htmlFor="email">E-mail *</label>
               <input
                 type="email"
                 name="email"
