@@ -3,6 +3,7 @@ import wrcOzalj from "../assets/images/wrc-ozalj.jpg";
 import strudlafest from "../assets/images/strudlafest.jpg";
 import karlovac from "../assets/images/karlovac.jpg";
 import sljuncara from "../assets/images/sljuncara.jpeg";
+import bicikli from "../assets/images/strudla-by-bike-ruta-vrhovac.jpg";
 import { LandmarkProps } from "../common/types";
 
 export const landmarksData: Array<LandmarkProps> = [
@@ -23,7 +24,7 @@ export const landmarksData: Array<LandmarkProps> = [
     url: "https://visitkarlovac.hr/",
   },
   {
-    img: "https://tzp-kupa.hr/hr/wp-content/uploads/2022/03/strudla-by-bike-ruta-vrhovac-1536x1024.jpg",
+    img: bicikli,
     url: "https://tzp-kupa.hr/hr/biciklom-uz-kupu/",
   },
   {
