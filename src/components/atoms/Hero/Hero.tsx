@@ -1,7 +1,7 @@
 import { Slide } from "hero-slider";
 import HeroSlider from "hero-slider/dist/HeroSlider";
-import hero1 from "../../../assets/images/hero/DJI_0039.jpg";
-import hero3 from "../../../assets/images/hero/DJI_0060.jpg";
+import hero1 from "../../../assets/images/hero/DJI_0039.webp";
+import hero3 from "../../../assets/images/hero/DJI_0060.webp";
 import "hero-slider/dist/index.css";
 import { useEffect, useState } from "react";
 import { FormattedMessage } from "react-intl";

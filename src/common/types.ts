@@ -14,6 +14,14 @@ export interface LandmarkProps {
   url: string;
 }
 
+export interface ImageProps {
+  alt: string;
+  height: number;
+  src: string;
+  width: number;
+  caption: string;
+}
+
 export interface ChildrenProps {
   children: ReactNode;
 }
@@ -25,5 +33,5 @@ export interface TranslatedDataProps {
 
 export interface LocaleContextType {
   locale: string;
-  setLocale: (locale: string) => void; 
+  setLocale: (locale: string) => void;
 }

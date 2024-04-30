@@ -53,7 +53,7 @@ const Gallery = () => {
           if (containerWidth < 768) return 2;
           return 3;
         }}
-      />
+      />{" "}
       <Lightbox
         slides={galleryImagesDataHq}
         open={index >= 0}

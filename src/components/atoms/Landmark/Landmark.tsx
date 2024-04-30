@@ -2,6 +2,7 @@ import { FC, useEffect } from "react";
 import { LandmarkProps, TranslatedDataProps } from "../../../common/types";
 import { Link } from "react-router-dom";
 import Aos from "aos";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Landmark: FC<{
   landmark: LandmarkProps;
@@ -23,10 +24,10 @@ const Landmark: FC<{
         <p className="absolute bottom-2 right-2 text-xs sm:bottom-6 sm:pr-8">
           * slika je preuzeta
         </p>
-        <img
-          src={landmark.img}
-          alt={landmark.img}
+        <LazyLoadImage
           className="max-h-48 w-full object-cover h-full sm:py-4 sm:pr-8 sm:max-h-none"
+          alt={landmark.img}
+          src={landmark.img}
         />
       </div>
       <div className="flex gap-2 flex-col flex-1 justify-center items-start sm:p-8 sm:translate-x-[-156px] sm:mr-[-156px] sm:bg-light-blue lg:h-64">
