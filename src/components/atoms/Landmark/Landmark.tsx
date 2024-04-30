@@ -3,6 +3,7 @@ import { LandmarkProps, TranslatedDataProps } from "../../../common/types";
 import { Link } from "react-router-dom";
 import Aos from "aos";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Landmark: FC<{
   landmark: LandmarkProps;
@@ -25,6 +26,7 @@ const Landmark: FC<{
           * slika je preuzeta
         </p>
         <LazyLoadImage
+          effect="blur"
           className="max-h-48 w-full object-cover h-full sm:py-4 sm:pr-8 sm:max-h-none"
           alt={landmark.img}
           src={landmark.img}
