@@ -11,10 +11,8 @@ import image10 from "../assets/images/DJI_0045.jpg";
 import image11 from "../assets/images/DJI_0050.jpg";
 import image12 from "../assets/images/DJI_0062.jpg";
 
-import image13 from "../assets/images/IMG_0001.jpg";
 import image14 from "../assets/images/IMG_0002.jpg";
 import image15 from "../assets/images/IMG_0004.jpg";
-import image16 from "../assets/images/IMG_0005.jpg";
 import image17 from "../assets/images/IMG_0006.jpg";
 import image18 from "../assets/images/IMG_0012.jpg";
 import image19 from "../assets/images/IMG_0014.jpg";
@@ -48,7 +46,7 @@ import image46 from "../assets/images/IMG_9991.jpg";
 import image47 from "../assets/images/IMG_9993.jpg";
 import image48 from "../assets/images/IMG_9994.jpg";
 import image49 from "../assets/images/IMG_9995.jpg";
-import image50 from "../assets/images/IMG_9996.jpg";
+import image51 from "../assets/images/IMG_novapecenjara.jpg";
 
 export const galleryImagesDataHq = [
   { src: image1, width: 4000, height: 2250 },
@@ -66,11 +64,9 @@ export const galleryImagesDataHq = [
 
   { src: image48, width: 4000, height: 6000 },
   { src: image49, width: 6000, height: 4000 },
-  { src: image50, width: 6000, height: 4000 },
-  { src: image13, width: 4000, height: 6000 },
   { src: image14, width: 4000, height: 6000 },
+  { src: image51, width: 4000, height: 6000 },
   { src: image15, width: 6000, height: 4000 },
-  { src: image16, width: 6000, height: 4000 },
   { src: image17, width: 6000, height: 4000 },
   { src: image18, width: 6000, height: 4000 },
   { src: image19, width: 6000, height: 4000 },

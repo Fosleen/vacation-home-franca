@@ -27,7 +27,7 @@ const Footer = () => {
         <span className="flex flex-col gap-10">
           <hr className="w-full border-main-blue" />
           <span className="w-full flex justify-end">
-            <Link to="https://fosleen.netlify.app/" target="_blank">
+            <Link to="https://fosleen.com" target="_blank">
               <img src={fosleenLogo} alt="fosleen-logo" className="w-40" />
             </Link>
           </span>
