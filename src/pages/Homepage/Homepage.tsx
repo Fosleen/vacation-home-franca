@@ -5,6 +5,7 @@ import CarouselInfo from "../../components/molecules/CarouselInfo";
 import AreaInfo from "../../components/molecules/AreaInfo";
 import LocationInfo from "../../components/molecules/LocationInfo";
 import Video from "../../components/atoms/Video/Video";
+import Reviews from "../../components/molecules/Reviews";
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
       <LocationInfo />
       <CarouselInfo />
       <Video />
+      <Reviews />
       <AreaInfo />
     </>
   );
