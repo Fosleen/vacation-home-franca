@@ -15,7 +15,17 @@ const Homepage = () => {
       <HomepageInfo />
       <LocationInfo />
       <CarouselInfo />
-      <Video />
+      <Video
+        url={
+          "https://www.youtube-nocookie.com/embed/WplvZvoSTNY?si=BwUiTzdxJoJGJ0Nt"
+        }
+      />
+      <Video
+        url={
+          "https://www.youtube-nocookie.com/embed/EqxqDAMwhSs?si=yA_cW6LZF1_37L2Q"
+        }
+      />
+
       <Reviews />
       <AreaInfo />
     </>
