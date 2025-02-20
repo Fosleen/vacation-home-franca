@@ -30,14 +30,11 @@ import image30 from "../assets/images/IMG_9968.jpg";
 import image31 from "../assets/images/IMG_9970.jpg";
 import image32 from "../assets/images/IMG_9971.jpg";
 import image33 from "../assets/images/IMG_9972.jpg";
-import image34 from "../assets/images/IMG_9973.jpg";
+import image34 from "../assets/images/IMG_3481.jpg";
 import image35 from "../assets/images/IMG_9975.jpg";
-import image36 from "../assets/images/IMG_9976.jpg";
-import image37 from "../assets/images/IMG_9977.jpg";
-import image38 from "../assets/images/IMG_9978.jpg";
-import image39 from "../assets/images/IMG_9980.jpg";
+import image36 from "../assets/images/IMG_3468.jpg";
+import image37 from "../assets/images/IMG_3467.jpg";
 import image40 from "../assets/images/IMG_9981.jpg";
-import image41 from "../assets/images/IMG_9983.jpg";
 import image42 from "../assets/images/IMG_9985.jpg";
 import image43 from "../assets/images/IMG_9986.jpg";
 import image44 from "../assets/images/IMG_9987.jpg";
@@ -46,7 +43,9 @@ import image46 from "../assets/images/IMG_9991.jpg";
 import image47 from "../assets/images/IMG_9993.jpg";
 import image48 from "../assets/images/IMG_9994.jpg";
 import image49 from "../assets/images/IMG_9995.jpg";
-import image51 from "../assets/images/IMG_novapecenjara.jpg";
+import image51 from "../assets/images/IMG_3460.jpg";
+import image52 from "../assets/images/IMG_3461.jpg";
+import image53 from "../assets/images/IMG_3458.jpg";
 
 export const galleryImagesDataHq = [
   { src: image1, width: 4000, height: 2250 },
@@ -62,10 +61,12 @@ export const galleryImagesDataHq = [
   { src: image11, width: 4000, height: 2250 },
   { src: image12, width: 4000, height: 2250 },
 
+  { src: image53, width: 6000, height: 4000 },
   { src: image48, width: 4000, height: 6000 },
   { src: image49, width: 6000, height: 4000 },
   { src: image14, width: 4000, height: 6000 },
   { src: image51, width: 4000, height: 6000 },
+  { src: image52, width: 4000, height: 6000 },
   { src: image15, width: 6000, height: 4000 },
   { src: image17, width: 6000, height: 4000 },
   { src: image18, width: 6000, height: 4000 },
@@ -84,17 +85,15 @@ export const galleryImagesDataHq = [
   { src: image31, width: 4000, height: 6000 },
   { src: image32, width: 6000, height: 4000 },
   { src: image33, width: 4000, height: 6000 },
-  { src: image34, width: 6000, height: 4000 },
   { src: image35, width: 4000, height: 6000 },
   { src: image36, width: 6000, height: 4000 },
-  { src: image37, width: 4000, height: 6000 },
-  { src: image38, width: 6000, height: 4000 },
-  { src: image39, width: 6000, height: 4000 },
+  { src: image37, width: 6000, height: 4000 },
   { src: image40, width: 4000, height: 6000 },
-  { src: image41, width: 6000, height: 4000 },
   { src: image42, width: 4000, height: 6000 },
   { src: image43, width: 4000, height: 6000 },
   { src: image44, width: 6000, height: 4000 },
+  { src: image34, width: 400, height: 600 },
+
   { src: image45, width: 4000, height: 6000 },
   { src: image46, width: 6000, height: 4000 },
   { src: image47, width: 4000, height: 6000 },
